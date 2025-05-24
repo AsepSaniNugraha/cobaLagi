@@ -1,0 +1,78 @@
+*{
+        body{
+            color:rgba(112, 29, 14, 0.932);
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding:0;
+        }
+        h1{
+            text-indent: 40px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        header{
+            background-image:url(images/background.jpg);
+            background-size:120%;
+            background-repeat:no-repeat;
+            background-position:left center;
+            padding: 85px 0px 0px 0px;
+        }
+        header a{
+            color:rgb(255, 255, 255);
+        }
+        .logo{
+            margin:15px;
+            background-image:url(images/logo.png);
+            background-size: 285px;
+            background-repeat:no-repeat;
+            background-position: top left;
+            display:block;
+            width:300px;
+            height: 300px;
+            border-radius: 50%;
+            text-indent:-99999px;            
+        }
+        ul{
+            background-color: brown;
+            padding:20px;
+            list-style-type: none;
+            text-align: right;
+        }
+        li{ 
+            color:rgb(255, 255, 255);
+            display:inline-block;
+            border-radius: 6px;
+            padding:8px;
+        }       
+        li:hover{
+            background-color:rgb(224, 146, 101);
+        }
+        a{
+            text-decoration:none;
+        }        
+        section{
+            padding:10px;
+            align-content: center;
+            display:flex;
+            flex-direction:row ;
+        }
+        .row-box figure{
+            color:rgba(7, 28, 223, 0.808);
+            text-align: center;
+            margin:auto;            
+        }        
+        .row-box figure img{
+            border-style: dotted;
+            border-width: 5px;
+            border-color: blueviolet;            
+            height:350px;
+            border-radius: 15%;
+        }
+        .lower-box{
+            color:rgb(255, 255, 255);
+            background:rgb(0, 0, 0);
+        }
+        footer{
+            background:rgb(255, 0, 0);
+            padding: 10px 
+        }
+}
